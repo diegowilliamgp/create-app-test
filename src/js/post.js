@@ -20,6 +20,6 @@ if (form) { // Verifica se existe
             body: JSON.stringify(dados)
         });
 
-        window.location.replace('/pessoas.html');
+        window.location.replace('./cadastrar.html');
     });
 }
