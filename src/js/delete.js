@@ -1,7 +1,10 @@
 function deleteItem(id) {
+    
     fetch(path + id, {
-        method: "DELETE"
+        method: 'DELETE'
     });
-
-    window.location.reload();
+    
+    setTimeout(() => {
+        window.location.reload();
+    }, 500)
 }
