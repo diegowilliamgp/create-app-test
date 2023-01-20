@@ -37,6 +37,10 @@ if (form) { // Verifica se existe
             body: JSON.stringify(dados)
         });
 
-        window.location.replace('/pessoas.html');
+        setTimeout(() => {
+            window.location.replace('./index.html');
+        }, 500)
+
+        
     });
 }

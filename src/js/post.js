@@ -20,6 +20,8 @@ if (form) { // Verifica se existe
             body: JSON.stringify(dados)
         });
 
-        window.location.replace('./cadastrar.html');
+        setTimeout(() => {
+            window.location.reload();
+        }, 500)
     });
 }
